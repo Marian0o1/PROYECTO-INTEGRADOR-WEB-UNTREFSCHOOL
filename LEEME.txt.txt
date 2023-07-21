@@ -1,0 +1,15 @@
+Hola!
+Me gusto mucho hacer la página, me llevo un tiempito porque lo quise hacer con puro html y css.
+Al terminar el proyecto lo testee en un cel de gama baja, media y un iphone, también en mi pc de escritorio
+con un monitor de 1920x1080. Todo muy bien, hasta que decidi probarlo en mi notebook que tiene una resolución de 
+1366px, la página de CONTACTO es la única que me paso y fue en algunos momentos porque trate de hacerlo sin el live
+server y no ocurria pero despues la pasaba a mi pantalla mas grande y se deformaba un poco lo que es el MAIN y el FOOTER.
+Cuestión que vi que el problema pasaba porque tanto el main como el footer tiene un heigh:75vh y footer: 10vh si no me
+equivoco. Pero paso solo en algunas ocasiones. Porque despues lo abría desde mi notebook y se veia bien. Quiero aclarar
+también que me pasaba más que nada cuando usaba el modo responsive de google cuando abris el inspector.
+De ahí manualmente quedaba bien. Quería dejarlo en claro por si me podrían ayudar en encontrar el error. Porque lo trate
+de arreglar con otra mediaqueries supieror a la 1366px pero se me descompensaba todo. 
+
+Muchas gracias, y que tengan un buen dia.
+
+Mariano Sosa.-

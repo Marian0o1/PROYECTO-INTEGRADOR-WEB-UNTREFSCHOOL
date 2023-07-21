@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+
+:root {
+    --color-orange: #FC7300;
+    --color-bluishgreen: #1F8A70;
+    --color-darkblue: #00425A;
+    --color-darkgray: #181823;
+    --color-whitesmoke: #EFF5F5;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secundary: 'Belanosima', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Versión Mobile 320px */
+
+header {
+    background-color: var(--color-darkblue);
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav .logo_container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav .logo_container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-whitesmoke);
+    font-size: 2rem;
+}
+
+header nav a {
+    color: var(--color-orange);
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    background-image: url('img/salon_clases.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+main .formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario label {
+    color: var(--color-darkgray);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #fff;
+    font-size: 1.3rem;
+}
+
+.formulario input {
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.formulario .enviar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #fff;
+    padding: 5px 10px;
+    color: var(--color-darkgray);
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+main .formulario .mensaje {
+    width: 70%;
+    margin-bottom: 0.313rem;
+    border-radius: 5px;
+}
+
+footer {
+    height: 10vh;
+    background-color: var(--color-darkblue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--color-whitesmoke);
+}
+
+footer h3 {
+    margin-top: 0.313rem;
+}
+
+/* Responsive design 768px - Tablet */
+
+@media screen and (min-width: 768px) {
+    
+    nav .logo_container a {
+        font-size: 3rem;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+    main .formulario {
+        justify-content: flex-start;
+    }
+
+    footer {
+        gap: 1rem;
+    }
+
+    footer h3 {
+        font-size: 2rem;
+    }
+}
+
+/* Responsive design 1024px - Notebook */
+
+@media screen and (min-width: 1024px) {
+    
+    main .formulario label {
+        font-size: 2.5rem;
+    }
+
+    main .formulario input {
+        width: 30rem;
+    }
+
+    main .formulario .mensaje {
+        width: 70%;
+    }
+
+    .formulario .enviar {
+        margin-top: 1.25rem;
+        padding: 1.5rem;
+    }
+
+}
+
+/* @media screen and (min-width: 1366px) {
+
+    main {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+} */

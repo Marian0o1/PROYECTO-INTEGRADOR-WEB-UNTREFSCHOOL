@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <link rel="stylesheet" href="style_contacto.css">
+    <link rel="shortcut icon" href="/img/icono_escuela.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7acd0a5c7f.js" crossorigin="anonymous"></script>
+    <title>Untref School</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo_container">
+                <a href="index.html">
+                    <i class="fa-solid fa-school"></i>
+                    <span class="logo">UNTREF SCHOOL</span>
+                </a>
+            </div>
+            <a href="index.html">Volver a la página principal</a>
+        </nav>
+    </header>
+    <main>
+        <form
+        action="https://formspree.io/f/mnqknzpk"
+        method="POST" class="formulario">
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="tel">Teléfono:</label>
+        <input type="tel" name="tel" id="tel" required>
+        <br>
+        <label for="comentario">Mensaje</label>
+        <textarea name="comentario" id="comentario" cols="50" rows="10" placeholder="Deje su comentario aquí..." class="mensaje"></textarea>
+        <button type="submit" class="enviar">ENVIAR</button>
+      </form>
+    </main>
+    <footer>
+        <h3>UNTREF School</h3>
+        <h5>&copy;Todos los derechos reservados - 2023</h5>
+    </footer>
+</body>
+</html>
