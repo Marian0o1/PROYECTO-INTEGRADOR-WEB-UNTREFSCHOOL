@@ -58,6 +58,7 @@ header nav a {
 }
 
 main {
+    height: 50rem;
     display: flex;
     align-items: center;
     background-image: url('img/salon_clases.jpg');
@@ -113,6 +114,12 @@ footer h3 {
     margin-top: 0.313rem;
 }
 
+@media screen and (min-width: 480px) {
+    main > .formulario {
+        margin-left: 3rem;
+    }
+}
+
 /* Responsive design 768px - Tablet */
 
 @media screen and (min-width: 768px) {
@@ -160,15 +167,3 @@ footer h3 {
     }
 
 }
-
-/* @media screen and (min-width: 1366px) {
-
-    main {
-        height: auto;
-    }
-
-    footer {
-        height: auto;
-    }
-
-} */

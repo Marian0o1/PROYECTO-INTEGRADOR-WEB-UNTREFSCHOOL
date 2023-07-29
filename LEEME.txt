@@ -10,6 +10,13 @@ también que me pasaba más que nada cuando usaba el modo responsive de google c
 De ahí manualmente quedaba bien. Quería dejarlo en claro por si me podrían ayudar en encontrar el error. Porque lo trate
 de arreglar con otra mediaqueries supieror a la 1366px pero se me descompensaba todo. 
 
+
+------
+
+Actualización 28/07:
+
+.--- Le agregué un "height" al main y creo que lo soluciono. Por el momento sigo interactuando con la página para ver si hay más errores.
+
 Muchas gracias, y que tengan un buen dia.
 
 Mariano Sosa.-

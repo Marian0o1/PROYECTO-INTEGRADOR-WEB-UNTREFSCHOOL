@@ -40,7 +40,7 @@ h3 {
 /* Estilos del header */
 
 
-nav li {
+nav ul li {
     list-style: none;
 }
 
@@ -81,7 +81,7 @@ a {
     display: none;
 }
 
-#container nav li i {
+#container nav ul li i {
     display: none;
 }
 
@@ -287,11 +287,11 @@ footer .container,
         font-size: 1.2rem;
     }
 
-    #container nav {
+    #container nav ul {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 0 10px;
+        margin: 0 0.625rem;
     }
 
     #hero {
@@ -463,22 +463,22 @@ footer .container,
         flex-direction: row;
     }
 
-    header #container nav li {
+    header #container nav ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    header #container nav li a {
+    header #container nav ul li a {
         color: var(--color-whitesmoke);
         transition: color 0.3s;
     }
 
-    header #container nav li a:hover {
+    header #container nav ul li a:hover {
         color: var(--color-orange);
     }
 
-    header #container nav li i {
+    header #container nav ul li i {
         display: flex;
     }
 
@@ -509,8 +509,8 @@ footer .container,
         justify-content: space-between;
     }
 
-    header #container nav {
-        gap: 2rem;
+    header #container nav ul li {
+        margin: 0 0.625rem;
     }
 
     #hero {
